@@ -23,6 +23,7 @@ useEffect(() => {
 
 const handleClick= (e, index) => {
     setItem({name: e.target.textContent });
+    setActive(index);
 };
   return (
     <div>
@@ -33,7 +34,9 @@ const handleClick= (e, index) => {
                       onClick={(e) => {
                         handleClick(e, index);
                     }} 
-                    className='work__item' key={index}>
+                    className={`${active === index ? 'active-work' : '' }
+                    work__item`} 
+                    key={index}>
                         {item.name}
                     </span>
                 );
