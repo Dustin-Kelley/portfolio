@@ -25,12 +25,12 @@ const Footer = () => {
             </ul>
 
             <div className='footer__social'>
-                <a href='https://github.com/DustinKelley?tab=repositories'  rel="noreferrer" className='footer__social-link' target='_blank'>
+                <a href='https://github.com/DustinKelley?tab=repositories'  rel="noreferrer" className='home__social-icon' target='_blank'>
                     <i className='uil uil-github-alt'></i>
                 </a>
 
-                <a href='https://github.com/DustinKelley?tab=repositories'  rel="noreferrer" className='footer__social-link' target='_blank'>
-                    <i className='uil uil-github-alt'></i>
+                <a href='https://www.linkedin.com/in/dustincalebkelley/'  rel="noreferrer" className='home__social-icon' target='_blank'>
+                    <i class="uil uil-linkedin-alt"></i>
                 </a>
             </div>
 

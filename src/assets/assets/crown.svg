@@ -1,0 +1,16 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 39" height="39px" width="50px">
+    
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="WiP">
+        <g transform="translate(-90.000000, -38.000000)" id="Artboard">
+            <g transform="translate(90.000000, 38.000000)" id="Group">
+                <polygon points="3 14 25 26.5 47 14 40.855176 39 9.08421785 39" fill="#808282" id="Rectangle"></polygon>
+                <polygon points="25 8 40 39 10 39" fill="#101A1A" fill-opacity="0.262838724" id="Triangle"></polygon>
+                <circle r="2" cy="9" cx="2" fill="#5E6363" id="Oval"></circle>
+                <circle r="2" cy="2" cx="25" fill="#5E6363" id="Oval"></circle>
+                <circle r="2" cy="9" cx="48" fill="#5E6363" id="Oval"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

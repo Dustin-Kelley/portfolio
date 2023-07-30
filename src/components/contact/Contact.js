@@ -18,7 +18,7 @@ const Contact = () => {
     
     <div className='contact__container container grid'>
         <div className='contact__content'>
-            <h3 className='contact__title'>Talk to me</h3>
+            <h3 className='contact__title'>Chat with me</h3>
 
             <div className='contact__info'>
                 <div className='contact__card'>
@@ -27,7 +27,7 @@ const Contact = () => {
                     <h3 className='contact__card-title'>Email</h3>
                     <span className='contact__card-data'>kelleydustin2018@gmail.com</span>
 
-                    <a href='mailto:kelleydustin2018@gmail.com' className='contact__button'>Write me{' '}
+                    <a href='mailto:kelleydustin2018@gmail.com' className='contact__button'>Email me{' '}
                         <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                     </a>
                 </div>
@@ -38,12 +38,12 @@ const Contact = () => {
                     <h3 className='contact__card-title'>Phone</h3>
                     <span className='contact__card-data'>620.805.2290</span>
 
-                    <a href='tel:6208052290' className='contact__button'>Write me{' '}
+                    <a href='tel:6208052290' className='contact__button'>Call me{' '}
                         <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                     </a>
                 </div>
 
-                <div className='contact__card'>
+                {/* <div className='contact__card'>
                     <i className='bx bx contact__card-icon'></i>
 
                     <h3 className='contact__card-title'></h3>
@@ -52,12 +52,12 @@ const Contact = () => {
                     <a href='' className='contact__button'>Write me{' '}
                         <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
 
         <div className='contact__content'>
-            <h3 className='contact__title'>Send me your project</h3>
+            <h3 className='contact__title'>Send me a message</h3>
 
             <form ref={form} onSubmit={sendEmail} className='contact__form'>
 
@@ -80,10 +80,10 @@ const Contact = () => {
                 </div>
 
                 <div className='contact__form-div contact__form-area'>
-                    <label className='contact__form-tag'>Project</label>
+                    <label className='contact__form-tag'>Message</label>
                    <textarea name='project' cols='30' rows='10' 
                    className='contact__form-input' 
-                   placeholder='Write your project' />
+                   placeholder='Write a message' />
                     
                 </div>
 

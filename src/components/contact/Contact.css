@@ -49,7 +49,7 @@ padding-bottom: 3rem;
 }
 
 .contact__button {
-    color: var(--text-color);
+    color:rgb(86, 86, 86);
     font-size: var(--smal-font-size);
     display: inline-flex;
     align-items: center;

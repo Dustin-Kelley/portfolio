@@ -1,11 +1,11 @@
 .button {
     color: black;
-    background-color: grey
+    background-color: rgb(86, 86, 86)
 }
 
 .button:hover {
     color: black;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(53, 53, 53);
     transition: .3s;
 }
 
@@ -68,16 +68,16 @@
 }
 
 .home__scroll-name {
-    color: gray;
+    color: rgb(86, 86, 86);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
-    margin-left: 20x;
+    margin-left: 20px;
 
 }
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: gray;
+    color: rgb(86, 86, 86);
 }
 
 .home__social {
