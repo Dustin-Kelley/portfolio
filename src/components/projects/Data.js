@@ -8,20 +8,25 @@ export const projectsData = [
         id: 1,
         image: Crown,
         title: 'crwn-clothing',
-        category: 'E-commerce',
+        category: 'Tutorials',
+        url: 'https://github.com/DustinKelley/crown-clothing',
     },
     {
-        id: 1,
+        id: 2,
         image: Scroll,
         title: 'Infinite Scroller',
-        category: 'API',
+        category: 'Web Apps',
+        url: 'https://github.com/DustinKelley/crown-clothing',
+
     },
  
     {
-        id: 1,
+        id: 3,
         image: Comingsoon,
-        title: 'Budget App',
-        category: 'web app',
+        title: 'Budget Buddy',
+        category: 'Mobile',
+        url: 'https://github.com/DustinKelley/crown-clothing',
+
     },
 
 ];
@@ -31,12 +36,12 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'web app',
+        name: 'Web Apps',
     },
     {
-        name: 'E-commerce',
+        name: 'Tutorials',
     },
     {
-        name: 'API',
+        name: 'Mobile',
     },
 ];
