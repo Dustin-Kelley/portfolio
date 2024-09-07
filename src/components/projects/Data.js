@@ -9,14 +9,14 @@ export const projectsData = [
         image: Crown,
         title: 'crwn-clothing',
         category: 'Tutorials',
-        url: 'https://github.com/DustinKelley/crown-clothing',
+        url: 'https://dustins-crwn-clothing-app.netlify.app/',
     },
     {
         id: 2,
         image: Scroll,
         title: 'Infinite Scroller',
         category: 'Web Apps',
-        url: 'https://github.com/DustinKelley/crown-clothing',
+        url: 'https://infinite-scroller-api.netlify.app/',
 
     },
  
@@ -25,7 +25,7 @@ export const projectsData = [
         image: Comingsoon,
         title: 'Budget Buddy',
         category: 'Mobile',
-        url: 'https://github.com/DustinKelley/crown-clothing',
+        url: 'https://github.com/Dustin-Kelley/budget-buddy',
 
     },
 
